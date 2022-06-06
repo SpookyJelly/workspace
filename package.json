@@ -1,0 +1,17 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "study in workspace",
+  "main": "index.js",
+  "scripts": {
+    "start:app": "npm run start -workspace=@workspace/app ",
+    "start:all": "npm run start -workspaces --if-present"
+  },
+  "author": "spookyjelly",
+  "license": "ISC",
+  "workspaces": [
+    "packages\\shared",
+    "packages\\app",
+    "packages\\styles"
+  ]
+}
