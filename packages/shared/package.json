@@ -1,0 +1,14 @@
+{
+  "name": "@workspace/shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  },
+  "scripts": {
+    "start": "tsc -d"
+  },
+  "author": "spookyjelly",
+  "license": "ISC"
+}
